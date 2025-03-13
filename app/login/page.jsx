@@ -1,4 +1,8 @@
-import styles from "../styles/page.module.css";
+"use client";
+
+import { useRouter } from "next/navigation";
+import styles from "../login/login.module.css";
+import Block from "../../components/Block";
 
 export default function Home() {
   return (
@@ -6,14 +10,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Login</h1>
         <form className={styles.form}>
-          <div className={styles.inputGroup}>
-            <label htmlFor="username">Nome</label>
-            <input type="text" id="username" name="username" required />
-          </div>
-          <div className={styles.inputGroup}>
-            <label htmlFor="password">Senha</label>
-            <input type="password" id="password" name="password" required />
-          </div>
+          <Block content={"E-mail"}></Block>
+          <Block content={"Senha"}></Block>
         </form>
         <div className={styles.botao}>
           <button type="submit" className={styles.button}>

@@ -3,8 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-image: url(https://img.freepik.com/fotos-gratis/renderizacao-3d-de-fundo-de-textura-hexagonal_23-2150796421.jpg);
   font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
@@ -17,6 +19,7 @@
   flex-direction: column;
   gap: 1.5rem;
   width: 30%;
+  height: 85vh;
 }
 
 .form {
@@ -30,26 +33,9 @@
   display: flex;
 }
 
-.registro button{
+.registro button {
   background-color: #f0f0f000;
   color: blue;
-}
-
-.inputGroup {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.inputGroup label {
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-.inputGroup input {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .button {

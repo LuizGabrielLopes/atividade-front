@@ -1,0 +1,16 @@
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .inputGroup label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .inputGroup input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

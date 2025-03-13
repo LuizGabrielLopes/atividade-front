@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/fotos-gratis/renderizacao-3d-de-fundo-de-textura-hexagonal_23-2150796421.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 30%;
+    height: 85vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .registro {
+    width: 39vh;
+    display: flex;
+  }
+  
+  .registro button{
+    background-color: #f0f0f000;
+    color: blue;
+  }
+  
+  
+  .button {
+    padding: 0.75rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    width: 30%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  

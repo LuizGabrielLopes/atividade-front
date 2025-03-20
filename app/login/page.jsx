@@ -14,7 +14,7 @@ export default function Home() {
           <Block content={"Senha"}></Block>
         </form>
         <div className={styles.botao}>
-          <button type="submit" className={styles.button}>
+          <button onClick={() => window.location.href='/profile'} type="submit" className={styles.button}>
             Login
           </button>
           <div className={styles.registro}>
